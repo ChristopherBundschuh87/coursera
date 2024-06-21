@@ -1,0 +1,96 @@
+/* Stylesheet Coursera Module2 "Our Menu!" interim task authored by C_Bundschuh */
+* {
+     box-sizing: border-box;
+     font-family: "Comic Sans MS"
+}
+body {
+     background-color: white;
+}
+#menu_header {
+      text-align: center;
+      margin-bottom: 15px;
+}
+section {
+     position: relative;
+     padding: 15px;
+     width: 95%;
+}
+p {
+     position: relative;
+     clear: right;
+}
+div {
+     position: relative;
+     width: 100%;
+     background-color: #c2c3c7;
+     border: 2px solid black;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: auto;
+}
+.chicken_head {
+     text-align: center;
+     font-weight: bold;
+     width: 120px; 
+     background-color: #f699a7f0;
+     border: 2px solid black;
+     margin: -2px -2px 10px;
+     float: right;
+}
+.beef_head {
+     text-align: center;
+     font-weight: bold;
+     width: 120px;
+     color: white;
+     background-color: #cb122ef0;
+     border: 2px solid black;
+     margin: -2px -2px 10px;
+     float: right;
+}
+.shushi_head {
+      text-align: center;
+      font-weight: bold;
+      width: 120px;
+      background-color: #d4bb13;
+      border: 2px solid black;
+      margin: -2px -2px 10px;
+      float: right;
+}
+.box {
+     background-color: #c2c3c7;
+     height: 150px;
+     padding: 5px;
+     border: none;
+     margin: 5px;
+     overflow: auto;
+}
+ /* Large device responsive design */
+ @media (min-width: 992px) {
+     .column-lg-4 {
+         float: left;
+         width: 33.33%;
+     }
+ }
+ /* Medium device responsive design */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .colmn-md-6 {
+         float: left;
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .colmn-md-12 {
+         float: left;
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+ /* Small device responsive design */
+ @media (max-width: 767px) {
+     .colmn-sm-12 {
+         float: left;
+         width: 100%;
+     }
+ }
+/* Have fun with this! */
